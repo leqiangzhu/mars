@@ -3,6 +3,7 @@ import { PhotoService } from '../photo.service';
 import { Photo } from '../photo.model';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
+
 @Component({
   selector: 'app-user-photos-list',
   templateUrl: '/user-photos-list.component.html',
