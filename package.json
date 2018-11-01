@@ -21,9 +21,9 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
-    "angularfire2": "^5.1.0",
+    "angularfire2": "^4.0.0-rc.0",
     "core-js": "^2.4.1",
-    "firebase": "^5.5.6",
+    "firebase": "^3.9.0",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
@@ -46,5 +46,16 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leqiangzhu/mars.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/leqiangzhu/mars/issues"
+  },
+  "homepage": "https://github.com/leqiangzhu/mars#readme"
 }

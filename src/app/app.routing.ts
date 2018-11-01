@@ -1,6 +1,7 @@
 import { RoverFormComponent } from './rover-form/rover-form.component';
 import { UserPhotosListComponent } from './user-photos-list/user-photos-list.component';
 import { Routes, RouterModule } from '@angular/router';
+import { ModuleWithProviders }  from '@angular/core';
 
 const appRoutes: Routes = [ 
 {
@@ -12,4 +13,5 @@ const appRoutes: Routes = [
     path: 'user/photos',
     component: UserPhotosListComponent
   }
-]
+];
+export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
